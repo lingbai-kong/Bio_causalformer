@@ -1,0 +1,208 @@
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+(200, 15)
+X(time slices): [0.    0.001 0.002 0.003 0.004 0.005 0.006 0.007 0.008 0.009 0.01  0.011
+ 0.012 0.013 0.014 0.015 0.016 0.017 0.018 0.019 0.02  0.021 0.022 0.023
+ 0.024 0.025 0.026 0.027 0.028 0.029 0.03  0.031 0.032 0.033 0.034 0.035
+ 0.036 0.037 0.038 0.039 0.04  0.041 0.042 0.043 0.044 0.045 0.046 0.047
+ 0.048 0.049 0.05  0.051 0.052 0.053 0.054 0.055 0.056 0.057 0.058 0.059
+ 0.06  0.061 0.062 0.063 0.064 0.065 0.066 0.067 0.068 0.069 0.07  0.071
+ 0.072 0.073 0.074 0.075 0.076 0.077 0.078 0.079 0.08  0.081 0.082 0.083
+ 0.084 0.085 0.086 0.087 0.088 0.089 0.09  0.091 0.092 0.093 0.094 0.095
+ 0.096 0.097 0.098 0.099 0.1   0.101 0.102 0.103 0.104 0.105 0.106 0.107
+ 0.108 0.109 0.11  0.111 0.112 0.113 0.114 0.115 0.116 0.117 0.118 0.119
+ 0.12  0.121 0.122 0.123 0.124 0.125 0.126 0.127 0.128 0.129 0.13  0.131
+ 0.132 0.133 0.134 0.135 0.136 0.137 0.138 0.139 0.14  0.141 0.142 0.143
+ 0.144 0.145 0.146 0.147 0.148 0.149 0.15  0.151 0.152 0.153 0.154 0.155
+ 0.156 0.157 0.158 0.159 0.16  0.161 0.162 0.163 0.164 0.165 0.166 0.167
+ 0.168 0.169 0.17  0.171 0.172 0.173 0.174 0.175 0.176 0.177 0.178 0.179
+ 0.18  0.181 0.182 0.183 0.184 0.185 0.186 0.187 0.188 0.189 0.19  0.191
+ 0.192 0.193 0.194 0.195 0.196 0.197 0.198 0.199]
+X(shape): (200,)
+Y(time series): [[-1.1286    -1.6045    -1.5858    ... -2.3507    -1.5468    -2.9286   ]
+ [-3.037      0.1399     0.13924   ... -2.7796    -0.024247   0.087291 ]
+ [ 0.70024   -1.2196    -0.090679  ...  0.057951   0.92935    0.679    ]
+ ...
+ [-1.2416     2.4761    -1.6678    ... -4.1754    -1.3763    -1.9328   ]
+ [-2.1572    -3.3217    -0.2154    ... -4.0467    -4.0684    -1.9849   ]
+ [-1.6948     0.0096596  0.2108    ... -2.327     -2.8863    -2.1964   ]]
+Y(shape): (200, 15)
+(190, 10, 1) (190, 10, 15) (190, 1, 1) (190, 1, 15)
+total samples 190
+training samples: 114 validation samples: 38 testing samples: 38
+seed 10 test MSE 5.397037982940674 test r2 0.1353153236700102
+seed 11 test MSE 6.343276500701904 test r2 -0.012615101421183168
+seed 12 test MSE 6.337182998657227 test r2 -0.01194826848785641
+seed 13 test MSE 5.725527763366699 test r2 0.08342643756129589
+seed 14 test MSE 5.4861884117126465 test r2 0.113827419003895
+seed 15 test MSE 5.613461971282959 test r2 0.09691971572006496
+seed 16 test MSE 5.241912841796875 test r2 0.15122286656322187
+seed 17 test MSE 5.7038164138793945 test r2 0.09288092272303675
+seed 18 test MSE 5.592166423797607 test r2 0.0980185824547826
+seed 19 test MSE 6.272529602050781 test r2 -0.0017678238603465438
+(10, 15, 15)
+(10, 15, 15)
+[[0.06873953 0.05989869 0.06299454 0.06918898 0.06302609 0.06816404
+  0.06813226 0.07794516 0.06569016 0.06503992 0.06121195 0.0746325
+  0.06702204 0.06109694 0.06721721]
+ [0.07138844 0.06063528 0.06100273 0.07426354 0.06294947 0.06464811
+  0.0666565  0.07873148 0.06836358 0.05714714 0.07014162 0.06478445
+  0.06193445 0.06213669 0.07521652]
+ [0.0653938  0.06318786 0.06551852 0.09085465 0.06557859 0.07474029
+  0.06848016 0.06659931 0.0660689  0.05971889 0.06432292 0.06147628
+  0.06201173 0.06654355 0.05950454]
+ [0.07034463 0.06277839 0.06113729 0.06871266 0.06464971 0.07391132
+  0.06830062 0.07030694 0.06575288 0.06471682 0.07168868 0.06369248
+  0.06717953 0.06529626 0.0615318 ]
+ [0.0636745  0.06434731 0.06629509 0.06681907 0.0649699  0.07129833
+  0.06946314 0.06816252 0.0696175  0.06638268 0.06831941 0.05874625
+  0.06649703 0.0650303  0.07037696]
+ [0.07174639 0.06405067 0.05993549 0.06279515 0.06445473 0.07162171
+  0.06737191 0.06912856 0.06283329 0.06552983 0.07134707 0.07099796
+  0.06605341 0.06645956 0.06567429]
+ [0.06184273 0.06375263 0.061068   0.07507234 0.06565291 0.07607957
+  0.06615158 0.0802249  0.06732789 0.0605742  0.0584046  0.07730597
+  0.06587564 0.06025116 0.06041589]
+ [0.06819646 0.06140856 0.06589556 0.08677705 0.06638066 0.07429714
+  0.06352742 0.06940161 0.0704225  0.06638549 0.0596462  0.06092752
+  0.06441875 0.06031089 0.06200419]
+ [0.06790517 0.06705358 0.06647788 0.07421115 0.06461473 0.07236037
+  0.06198301 0.06940669 0.07133653 0.06280692 0.06040434 0.05850402
+  0.067397   0.07068361 0.064855  ]
+ [0.06910166 0.06084373 0.06701597 0.0782292  0.06430815 0.07287341
+  0.06443354 0.07331977 0.07949229 0.06492162 0.05568676 0.06341963
+  0.06410229 0.06396592 0.05828606]
+ [0.06148667 0.06170331 0.0677555  0.07309321 0.06253087 0.08171808
+  0.06638688 0.07003756 0.0704687  0.06549993 0.05598183 0.06177877
+  0.07124071 0.06482516 0.06549281]
+ [0.06323675 0.06125229 0.06264    0.07096964 0.06081687 0.07271583
+  0.0639542  0.07009858 0.06995111 0.06908943 0.07387898 0.06167744
+  0.07161035 0.06282497 0.06528356]
+ [0.06616438 0.06242499 0.07681416 0.07695013 0.06566564 0.06583297
+  0.06322718 0.07520111 0.0730813  0.06002651 0.05531041 0.05873618
+  0.0659472  0.06576796 0.06884988]
+ [0.07241596 0.06305486 0.06709723 0.07464258 0.06657036 0.06586671
+  0.07032973 0.06761547 0.06825991 0.06318336 0.06299908 0.06235817
+  0.06442439 0.06317065 0.06801154]
+ [0.06424552 0.05852508 0.06908276 0.09580846 0.06667175 0.06720045
+  0.06360175 0.06495351 0.0649227  0.06755006 0.06548081 0.05821011
+  0.0661229  0.06288351 0.06474065]]
+[(7, 0, 1), (11, 0, 1), (0, 1, 1), (3, 1, 1), (7, 1, 1), (8, 1, 1), (10, 1, 1), (14, 1, 1), (3, 2, 1), (0, 3, 1), (3, 3, 1), (5, 3, 1), (6, 3, 1), (7, 3, 1), (10, 3, 1), (12, 3, 1), (5, 4, 1), (6, 4, 1), (7, 4, 1), (8, 4, 1), (10, 4, 1), (14, 4, 1), (0, 5, 1), (5, 5, 1), (7, 5, 1), (10, 5, 1), (11, 5, 1), (3, 6, 1), (5, 6, 1), (7, 6, 1), (11, 6, 1), (3, 7, 1), (0, 8, 1), (1, 8, 1), (2, 8, 1), (3, 8, 1), (5, 8, 1), (7, 8, 1), (8, 8, 1), (12, 8, 1), (13, 8, 1), (3, 9, 1), (5, 9, 1), (7, 9, 1), (8, 9, 1), (3, 10, 1), (5, 10, 1), (7, 10, 1), (8, 10, 1), (12, 10, 1), (3, 11, 1), (5, 11, 1), (7, 11, 1), (8, 11, 1), (9, 11, 1), (10, 11, 1), (12, 11, 1), (2, 12, 1), (3, 12, 1), (7, 12, 1), (8, 12, 1), (0, 13, 1), (2, 13, 1), (3, 13, 1), (6, 13, 1), (7, 13, 1), (8, 13, 1), (14, 13, 1), (3, 14, 1)]
+===================Results===================
+7 causes 0 with a delay of 1 time steps.
+11 causes 0 with a delay of 1 time steps.
+0 causes 1 with a delay of 1 time steps.
+3 causes 1 with a delay of 1 time steps.
+7 causes 1 with a delay of 1 time steps.
+8 causes 1 with a delay of 1 time steps.
+10 causes 1 with a delay of 1 time steps.
+14 causes 1 with a delay of 1 time steps.
+3 causes 2 with a delay of 1 time steps.
+0 causes 3 with a delay of 1 time steps.
+3 causes 3 with a delay of 1 time steps.
+5 causes 3 with a delay of 1 time steps.
+6 causes 3 with a delay of 1 time steps.
+7 causes 3 with a delay of 1 time steps.
+10 causes 3 with a delay of 1 time steps.
+12 causes 3 with a delay of 1 time steps.
+5 causes 4 with a delay of 1 time steps.
+6 causes 4 with a delay of 1 time steps.
+7 causes 4 with a delay of 1 time steps.
+8 causes 4 with a delay of 1 time steps.
+10 causes 4 with a delay of 1 time steps.
+14 causes 4 with a delay of 1 time steps.
+0 causes 5 with a delay of 1 time steps.
+5 causes 5 with a delay of 1 time steps.
+7 causes 5 with a delay of 1 time steps.
+10 causes 5 with a delay of 1 time steps.
+11 causes 5 with a delay of 1 time steps.
+3 causes 6 with a delay of 1 time steps.
+5 causes 6 with a delay of 1 time steps.
+7 causes 6 with a delay of 1 time steps.
+11 causes 6 with a delay of 1 time steps.
+3 causes 7 with a delay of 1 time steps.
+0 causes 8 with a delay of 1 time steps.
+1 causes 8 with a delay of 1 time steps.
+2 causes 8 with a delay of 1 time steps.
+3 causes 8 with a delay of 1 time steps.
+5 causes 8 with a delay of 1 time steps.
+7 causes 8 with a delay of 1 time steps.
+8 causes 8 with a delay of 1 time steps.
+12 causes 8 with a delay of 1 time steps.
+13 causes 8 with a delay of 1 time steps.
+3 causes 9 with a delay of 1 time steps.
+5 causes 9 with a delay of 1 time steps.
+7 causes 9 with a delay of 1 time steps.
+8 causes 9 with a delay of 1 time steps.
+3 causes 10 with a delay of 1 time steps.
+5 causes 10 with a delay of 1 time steps.
+7 causes 10 with a delay of 1 time steps.
+8 causes 10 with a delay of 1 time steps.
+12 causes 10 with a delay of 1 time steps.
+3 causes 11 with a delay of 1 time steps.
+5 causes 11 with a delay of 1 time steps.
+7 causes 11 with a delay of 1 time steps.
+8 causes 11 with a delay of 1 time steps.
+9 causes 11 with a delay of 1 time steps.
+10 causes 11 with a delay of 1 time steps.
+12 causes 11 with a delay of 1 time steps.
+2 causes 12 with a delay of 1 time steps.
+3 causes 12 with a delay of 1 time steps.
+7 causes 12 with a delay of 1 time steps.
+8 causes 12 with a delay of 1 time steps.
+0 causes 13 with a delay of 1 time steps.
+2 causes 13 with a delay of 1 time steps.
+3 causes 13 with a delay of 1 time steps.
+6 causes 13 with a delay of 1 time steps.
+7 causes 13 with a delay of 1 time steps.
+8 causes 13 with a delay of 1 time steps.
+14 causes 13 with a delay of 1 time steps.
+3 causes 14 with a delay of 1 time steps.
+===================Evaluation===================
+Total False Positives': 58
+Total True Positives': 11
+Total False Negatives: 26
+Total Direct False Positives: 62
+Total Direct True Positives: 7
+TPs': ['3->1', '7->1', '3->2', '3->3', '5->5', '7->5', '7->6', '8->8', '12->10', '12->11', '14->13']
+FPs': ['7->0', '11->0', '0->1', '8->1', '10->1', '14->1', '0->3', '5->3', '6->3', '7->3', '10->3', '12->3', '5->4', '6->4', '7->4', '8->4', '10->4', '14->4', '0->5', '10->5', '11->5', '3->6', '5->6', '11->6', '3->7', '0->8', '1->8', '2->8', '3->8', '5->8', '7->8', '12->8', '13->8', '3->9', '5->9', '7->9', '8->9', '3->10', '5->10', '7->10', '8->10', '3->11', '5->11', '7->11', '8->11', '9->11', '10->11', '2->12', '3->12', '7->12', '8->12', '0->13', '2->13', '3->13', '6->13', '7->13', '8->13', '3->14']
+TPs direct: ['3->2', '3->3', '5->5', '7->6', '8->8', '12->11', '14->13']
+FPs direct: ['7->0', '11->0', '0->1', '3->1', '7->1', '8->1', '10->1', '14->1', '0->3', '5->3', '6->3', '7->3', '10->3', '12->3', '5->4', '6->4', '7->4', '8->4', '10->4', '14->4', '0->5', '7->5', '10->5', '11->5', '3->6', '5->6', '11->6', '3->7', '0->8', '1->8', '2->8', '3->8', '5->8', '7->8', '12->8', '13->8', '3->9', '5->9', '7->9', '8->9', '3->10', '5->10', '7->10', '8->10', '12->10', '3->11', '5->11', '7->11', '8->11', '9->11', '10->11', '2->12', '3->12', '7->12', '8->12', '0->13', '2->13', '3->13', '6->13', '7->13', '8->13', '3->14']
+FNs: ['0->0', '1->0', '4->0', '1->1', '2->1', '2->2', '7->2', '12->2', '4->3', '4->4', '6->5', '9->5', '6->6', '7->7', '8->7', '12->7', '9->8', '9->9', '10->10', '11->10', '14->10', '11->11', '12->12', '13->12', '13->13', '14->14']
+(includes direct and indirect causal relationships)
+Precision': 0.15942028985507245
+Recall': 0.2972972972972973
+F1' score: 0.20754716981132074
+(includes only direct causal relationships)
+Precision: 0.10144927536231885
+Recall: 0.21212121212121213
+F1 score: 0.1372549019607843
+Percentage of delays that are correctly discovered: 100.0%

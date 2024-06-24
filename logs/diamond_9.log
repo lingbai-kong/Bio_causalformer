@@ -1,0 +1,64 @@
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+(4000, 4)
+X(time slices): [0.000e+00 1.000e-03 2.000e-03 ... 3.997e+00 3.998e+00 3.999e+00]
+X(shape): (4000,)
+Y(time series): [[ 1.7857468e-01 -2.9329038e-01  3.9983653e-02 -1.2093074e-01]
+ [-1.4792448e-01  2.2936240e-01  1.3623571e-01 -2.1788309e+00]
+ [ 1.0506699e-01 -6.0327407e-02 -1.6873291e-01 -3.7491074e-01]
+ ...
+ [-3.9578315e-02  1.9397032e+01 -3.1533482e+00 -3.5720696e+00]
+ [ 3.8164325e-02 -1.9193211e+01  1.2623271e+00 -4.3578925e+00]
+ [-1.0837341e-02  1.8999315e+01 -2.9489982e-01 -3.8953898e+00]]
+Y(shape): (4000, 4)
+(3990, 10, 1) (3990, 10, 4) (3990, 1, 1) (3990, 1, 4)
+total samples 3990
+training samples: 2394 validation samples: 798 testing samples: 798
+seed 10 test MSE 0.23718613386154175 test r2 0.8241837943487098
+seed 11 test MSE 0.22640061378479004 test r2 0.8260019284750499
+seed 12 test MSE 0.24299755692481995 test r2 0.8200767971980681
+seed 13 test MSE 0.237717404961586 test r2 0.8244857924653322
+seed 14 test MSE 0.23968195915222168 test r2 0.8251676951556972
+seed 15 test MSE 0.24387089908123016 test r2 0.822224543949498
+seed 16 test MSE 0.2225046008825302 test r2 0.8398119503451488
+seed 17 test MSE 0.23579391837120056 test r2 0.8356577266901711
+seed 18 test MSE 0.24504703283309937 test r2 0.8296524589820694
+seed 19 test MSE 0.22160199284553528 test r2 0.8386115239525852
+(10, 4, 4)
+(10, 4, 4)
+[[0.12380372 0.58848362 0.13125365 0.15645901]
+ [0.10440411 0.6835731  0.1059941  0.1060287 ]
+ [0.1504939  0.52048733 0.14292813 0.18609064]
+ [0.09347621 0.71567574 0.0911716  0.09967645]]
+[(1, 0, 1), (1, 1, 1), (1, 2, 1), (1, 3, 1)]
+===================Results===================
+V2 causes V1 with a delay of 1 time steps.
+V2 causes V2 with a delay of 1 time steps.
+V2 causes V3 with a delay of 1 time steps.
+V2 causes V4 with a delay of 1 time steps.
+===================Evaluation===================
+Total False Positives': 2
+Total True Positives': 2
+Total False Negatives: 6
+Total Direct False Positives: 2
+Total Direct True Positives: 2
+TPs': ['1->1', '1->3']
+FPs': ['1->0', '1->2']
+TPs direct: ['1->1', '1->3']
+FPs direct: ['1->0', '1->2']
+FNs: ['0->0', '0->1', '0->2', '2->2', '2->3', '3->3']
+(includes direct and indirect causal relationships)
+Precision': 0.5
+Recall': 0.25
+F1' score: 0.3333333333333333
+(includes only direct causal relationships)
+Precision: 0.5
+Recall: 0.25
+F1 score: 0.3333333333333333
+Percentage of delays that are correctly discovered: 100.0%

@@ -1,0 +1,17 @@
+datafolder: ./izhikevich_data/ expfolder: exc4_inh1_nodiag_withinp_rand/p2/inpvar5_S5_t5000/seed5/ datafile: v_normed_alltimes.txt data: /remote-home/share/dmb_nas/konglingbai/causality/data/fMRI/timeseries28.csv groundtruth: /remote-home/share/dmb_nas/konglingbai/causality/data/fMRI/sim28_gt_processed.csv seed: 14 train_ratio: 0.6 val_ratio: 0.2 seq_len: 10 loss: mse prednstep: 1 attn_enc_self_loc: full attn_enc_self_glb: none attn_dec_self_loc: none attn_dec_self_glb: none attn_dec_cross_loc: full attn_dec_cross_glb: full max_epoch: 50 device: cuda:5 patience: 10 outdir: . outname: best_model d_model: 100 d_qkv: 8 n_heads: 10 ed_layers: 1 time_emb_dim: 1 dropout_emb: 0.1 dropout_ff: 0.1 batch_size: 16 base_lr: 0.0005 l2_coeff: 0.001 warmup_steps:  decay_factor: 0.5 
+epoch    train    val    elapsed_sec
+1    5.0474395751953125    6.113604784011841    0.06807184219360352
+2    6.974841833114624    5.626073837280273    0.05863690376281738
+3    5.651336908340454    4.261247158050537    0.06110835075378418
+4    5.412996530532837    5.772005081176758    0.07195258140563965
+5    5.528570890426636    6.314605712890625    0.06576371192932129
+6    5.801003932952881    4.632301926612854    0.05866265296936035
+7    4.795355558395386    4.885852098464966    0.05705857276916504
+8    5.0791990756988525    4.999861001968384    0.05404543876647949
+9    4.928171396255493    4.997629880905151    0.06986808776855469
+10    4.732243061065674    5.279755353927612    0.06270122528076172
+11    3.551298975944519    4.544535398483276    0.0680699348449707
+12    3.9686673879623413    4.667123079299927    0.0646214485168457
+13    3.605265974998474    4.280854105949402    0.06886553764343262
+early stopped at epoch 13 
+best result at epoch 3 train 5.651336908340454 val 4.261247158050537 

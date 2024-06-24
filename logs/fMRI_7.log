@@ -1,0 +1,71 @@
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+(5000, 5)
+X(time slices): [0.000e+00 1.000e-03 2.000e-03 ... 4.997e+00 4.998e+00 4.999e+00]
+X(shape): (5000,)
+Y(time series): [[-1.3169  -2.1151  -1.4565  -0.68961 -1.4391 ]
+ [-1.1199  -0.10369 -1.2547   1.2073  -0.79245]
+ [-0.72423 -1.2514   0.23063 -2.1652  -1.4606 ]
+ ...
+ [ 0.66071  1.2858  -1.1528   1.3176  -2.8996 ]
+ [-2.7978  -1.0832   2.0885   0.71722 -0.87139]
+ [ 1.7915  -1.0428   3.0568   3.6879   0.70025]]
+Y(shape): (5000, 5)
+(4990, 10, 1) (4990, 10, 5) (4990, 1, 1) (4990, 1, 5)
+total samples 4990
+training samples: 2994 validation samples: 998 testing samples: 998
+seed 10 test MSE 4.172301292419434 test r2 0.23506760309455377
+seed 11 test MSE 4.09571647644043 test r2 0.250497177686904
+seed 12 test MSE 4.055214881896973 test r2 0.2584157511167008
+seed 13 test MSE 4.088953018188477 test r2 0.251965691709514
+seed 14 test MSE 4.146814823150635 test r2 0.2404212592181715
+seed 15 test MSE 4.089597702026367 test r2 0.2512491557644851
+seed 16 test MSE 4.047003746032715 test r2 0.25927150375256547
+seed 17 test MSE 4.132606506347656 test r2 0.24317253646019915
+seed 18 test MSE 4.148798942565918 test r2 0.24121407293356203
+seed 19 test MSE 4.073017597198486 test r2 0.2542760672217236
+(10, 5, 5)
+(10, 5, 5)
+[[0.19337581 0.25468288 0.15737117 0.15246605 0.24210409]
+ [0.37129912 0.18160947 0.1606656  0.13613882 0.15028699]
+ [0.14544586 0.23997438 0.15491723 0.29425037 0.16541216]
+ [0.10928623 0.17624128 0.33068123 0.14978911 0.23400216]
+ [0.166717   0.1408532  0.13443703 0.40039404 0.15759872]]
+[(1, 0, 1), (4, 0, 1), (0, 1, 1), (1, 2, 1), (3, 2, 1), (2, 3, 1), (4, 3, 1), (3, 4, 1)]
+===================Results===================
+1 causes 0 with a delay of 1 time steps.
+4 causes 0 with a delay of 1 time steps.
+0 causes 1 with a delay of 1 time steps.
+1 causes 2 with a delay of 1 time steps.
+3 causes 2 with a delay of 1 time steps.
+2 causes 3 with a delay of 1 time steps.
+4 causes 3 with a delay of 1 time steps.
+3 causes 4 with a delay of 1 time steps.
+===================Evaluation===================
+Total False Positives': 4
+Total True Positives': 4
+Total False Negatives: 6
+Total Direct False Positives: 4
+Total Direct True Positives: 4
+TPs': ['1->0', '4->0', '3->2', '4->3']
+FPs': ['0->1', '1->2', '2->3', '3->4']
+TPs direct: ['1->0', '4->0', '3->2', '4->3']
+FPs direct: ['0->1', '1->2', '2->3', '3->4']
+FNs: ['0->0', '1->1', '2->1', '2->2', '3->3', '4->4']
+(includes direct and indirect causal relationships)
+Precision': 0.5
+Recall': 0.4
+F1' score: 0.4444444444444445
+(includes only direct causal relationships)
+Precision: 0.5
+Recall: 0.4
+F1 score: 0.4444444444444445
+Percentage of delays that are correctly discovered: 100.0%

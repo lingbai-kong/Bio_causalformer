@@ -1,0 +1,111 @@
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+(1200, 10)
+X(time slices): [0.000e+00 1.000e-03 2.000e-03 ... 1.197e+00 1.198e+00 1.199e+00]
+X(shape): (1200,)
+Y(time series): [[-2.691   -1.9591  -2.5524  ... -0.9859  -2.148   -1.7483 ]
+ [-1.6974   3.1993   0.0432  ... -1.9783  -0.84755  1.5025 ]
+ [ 0.90524  4.1957   1.3628  ...  0.20549 -0.33146  2.6398 ]
+ ...
+ [-3.6872  -0.4817   0.11043 ...  0.53831  4.3133   4.5867 ]
+ [-0.84579 -2.7622  -1.1658  ...  4.9104   2.6774   4.2893 ]
+ [ 2.1991  -4.0014   2.5144  ... -0.74004 -1.6398   1.2634 ]]
+Y(shape): (1200, 10)
+(1190, 10, 1) (1190, 10, 10) (1190, 1, 1) (1190, 1, 10)
+total samples 1190
+training samples: 714 validation samples: 238 testing samples: 238
+seed 10 test MSE 3.641019821166992 test r2 0.23318899788977965
+seed 11 test MSE 3.6651089191436768 test r2 0.22896215670137576
+seed 12 test MSE 3.6319820880889893 test r2 0.23336755945486534
+seed 13 test MSE 3.643796920776367 test r2 0.2328743143128816
+seed 14 test MSE 3.6409919261932373 test r2 0.23388003952805664
+seed 15 test MSE 3.784442663192749 test r2 0.20529134923775402
+seed 16 test MSE 3.63736629486084 test r2 0.23554685700470807
+seed 17 test MSE 3.703639507293701 test r2 0.22274664375018624
+seed 18 test MSE 3.711857557296753 test r2 0.2215519683872759
+seed 19 test MSE 3.652434825897217 test r2 0.23198815645780643
+(10, 10, 10)
+(10, 10, 10)
+[[0.10279097 0.11194284 0.08716429 0.09146769 0.10221522 0.09230891
+  0.10204081 0.10365827 0.10473736 0.10167363]
+ [0.19065562 0.09346083 0.101305   0.07939959 0.09046174 0.07536848
+  0.08524184 0.09973899 0.09294248 0.09142543]
+ [0.1509556  0.10331751 0.09407564 0.1311005  0.08894746 0.07684159
+  0.08193562 0.10543391 0.08674821 0.08064397]
+ [0.11873091 0.08664355 0.18993044 0.08522023 0.09154388 0.07507538
+  0.08356783 0.09461549 0.08695097 0.08772133]
+ [0.15783047 0.09048183 0.09103415 0.1347292  0.0836184  0.0899788
+  0.09296534 0.08817213 0.08788494 0.08330473]
+ [0.1189206  0.1026955  0.09182338 0.09622616 0.09967044 0.09824632
+  0.09692189 0.10111102 0.09055125 0.10383345]
+ [0.06586785 0.09020301 0.06822031 0.08353837 0.07887033 0.2553213
+  0.08118965 0.1034734  0.08354064 0.08977514]
+ [0.10526148 0.09826571 0.12148735 0.11484651 0.08285787 0.1082871
+  0.09365119 0.09572134 0.09541019 0.08421125]
+ [0.12040122 0.09854622 0.08900014 0.10589947 0.0920475  0.09765081
+  0.10492504 0.0947862  0.09620299 0.10054042]
+ [0.09868447 0.08582111 0.07488188 0.08387226 0.08790827 0.18710615
+  0.08410906 0.09000557 0.11055754 0.09705369]]
+[(0, 0, 1), (1, 0, 1), (4, 0, 1), (6, 0, 1), (7, 0, 1), (8, 0, 1), (9, 0, 1), (0, 1, 1), (0, 2, 1), (3, 2, 1), (2, 3, 1), (0, 4, 1), (3, 4, 1), (0, 5, 1), (5, 6, 1), (0, 7, 1), (2, 7, 1), (3, 7, 1), (5, 7, 1), (0, 8, 1), (3, 8, 1), (6, 8, 1), (5, 9, 1)]
+===================Results===================
+0 causes 0 with a delay of 1 time steps.
+1 causes 0 with a delay of 1 time steps.
+4 causes 0 with a delay of 1 time steps.
+6 causes 0 with a delay of 1 time steps.
+7 causes 0 with a delay of 1 time steps.
+8 causes 0 with a delay of 1 time steps.
+9 causes 0 with a delay of 1 time steps.
+0 causes 1 with a delay of 1 time steps.
+0 causes 2 with a delay of 1 time steps.
+3 causes 2 with a delay of 1 time steps.
+2 causes 3 with a delay of 1 time steps.
+0 causes 4 with a delay of 1 time steps.
+3 causes 4 with a delay of 1 time steps.
+0 causes 5 with a delay of 1 time steps.
+5 causes 6 with a delay of 1 time steps.
+0 causes 7 with a delay of 1 time steps.
+2 causes 7 with a delay of 1 time steps.
+3 causes 7 with a delay of 1 time steps.
+5 causes 7 with a delay of 1 time steps.
+0 causes 8 with a delay of 1 time steps.
+3 causes 8 with a delay of 1 time steps.
+6 causes 8 with a delay of 1 time steps.
+5 causes 9 with a delay of 1 time steps.
+===================Evaluation===================
+Total False Positives': 19
+Total True Positives': 4
+Total False Negatives: 17
+Total Direct False Positives: 19
+Total Direct True Positives: 4
+TPs': ['0->0', '1->0', '4->0', '3->2']
+FPs': ['6->0', '7->0', '8->0', '9->0', '0->1', '0->2', '2->3', '0->4', '3->4', '0->5', '5->6', '0->7', '2->7', '3->7', '5->7', '0->8', '3->8', '6->8', '5->9']
+TPs direct: ['0->0', '1->0', '4->0', '3->2']
+FPs direct: ['6->0', '7->0', '8->0', '9->0', '0->1', '0->2', '2->3', '0->4', '3->4', '0->5', '5->6', '0->7', '2->7', '3->7', '5->7', '0->8', '3->8', '6->8', '5->9']
+FNs: ['1->1', '2->1', '2->2', '7->2', '3->3', '4->3', '4->4', '5->5', '6->5', '9->5', '6->6', '7->6', '7->7', '8->7', '8->8', '9->8', '9->9']
+(includes direct and indirect causal relationships)
+Precision': 0.17391304347826086
+Recall': 0.19047619047619047
+F1' score: 0.1818181818181818
+(includes only direct causal relationships)
+Precision: 0.17391304347826086
+Recall: 0.19047619047619047
+F1 score: 0.1818181818181818
+Percentage of delays that are correctly discovered: 100.0%

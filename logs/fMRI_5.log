@@ -1,0 +1,73 @@
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+/root/anaconda3/envs/relic/lib/python3.9/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+(1200, 5)
+X(time slices): [0.000e+00 1.000e-03 2.000e-03 ... 1.197e+00 1.198e+00 1.199e+00]
+X(shape): (1200,)
+Y(time series): [[ 0.34485 -1.3608  -0.82392 -0.88807 -3.2778 ]
+ [-1.8941   3.0189  -2.2439  -1.6303  -0.48871]
+ [-1.0741   3.1374   1.1147  -0.87343 -2.7873 ]
+ ...
+ [-5.7612   2.1984   0.45736 -1.9003  -4.0092 ]
+ [-1.9943  -0.89652  0.25074 -1.8384  -1.4381 ]
+ [-0.68456 -4.2793   2.2989   1.6772   0.46947]]
+Y(shape): (1200, 5)
+(1190, 10, 1) (1190, 10, 5) (1190, 1, 1) (1190, 1, 5)
+total samples 1190
+training samples: 714 validation samples: 238 testing samples: 238
+seed 10 test MSE 4.006226062774658 test r2 0.2220740524883527
+seed 11 test MSE 4.023400783538818 test r2 0.21775407507374123
+seed 12 test MSE 4.031733512878418 test r2 0.21420449602447986
+seed 13 test MSE 3.9395320415496826 test r2 0.2351714529460977
+seed 14 test MSE 4.042179107666016 test r2 0.22248697377696072
+seed 15 test MSE 3.9307312965393066 test r2 0.23705596610508084
+seed 16 test MSE 3.8762264251708984 test r2 0.24615524428718386
+seed 17 test MSE 3.9799108505249023 test r2 0.22784152262238289
+seed 18 test MSE 4.004099369049072 test r2 0.22427904538454452
+seed 19 test MSE 3.9548254013061523 test r2 0.23375185358496092
+(10, 5, 5)
+(10, 5, 5)
+[[0.20240092 0.22618371 0.18221138 0.16006723 0.22913677]
+ [0.25119547 0.21284032 0.19584273 0.16513055 0.17499094]
+ [0.19183829 0.19523633 0.19676443 0.21755911 0.19860185]
+ [0.18006448 0.16292488 0.24485571 0.18107066 0.23108427]
+ [0.23855737 0.16529202 0.16848893 0.26209877 0.1655629 ]]
+[(0, 0, 1), (1, 0, 1), (4, 0, 1), (0, 1, 1), (1, 1, 1), (3, 2, 1), (2, 3, 1), (4, 3, 1), (0, 4, 1), (3, 4, 1)]
+===================Results===================
+0 causes 0 with a delay of 1 time steps.
+1 causes 0 with a delay of 1 time steps.
+4 causes 0 with a delay of 1 time steps.
+0 causes 1 with a delay of 1 time steps.
+1 causes 1 with a delay of 1 time steps.
+3 causes 2 with a delay of 1 time steps.
+2 causes 3 with a delay of 1 time steps.
+4 causes 3 with a delay of 1 time steps.
+0 causes 4 with a delay of 1 time steps.
+3 causes 4 with a delay of 1 time steps.
+===================Evaluation===================
+Total False Positives': 4
+Total True Positives': 6
+Total False Negatives: 4
+Total Direct False Positives: 4
+Total Direct True Positives: 6
+TPs': ['0->0', '1->0', '4->0', '1->1', '3->2', '4->3']
+FPs': ['0->1', '2->3', '0->4', '3->4']
+TPs direct: ['0->0', '1->0', '4->0', '1->1', '3->2', '4->3']
+FPs direct: ['0->1', '2->3', '0->4', '3->4']
+FNs: ['2->1', '2->2', '3->3', '4->4']
+(includes direct and indirect causal relationships)
+Precision': 0.6
+Recall': 0.6
+F1' score: 0.6
+(includes only direct causal relationships)
+Precision: 0.6
+Recall: 0.6
+F1 score: 0.6
+Percentage of delays that are correctly discovered: 100.0%
